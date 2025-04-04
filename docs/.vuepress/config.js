@@ -5,7 +5,7 @@ import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
   lang: 'en-US',
-
+  base: '/tech-note',
   title: 'Pandaer的技术笔记',
   description: '探究技术的本质，享受技术的乐趣',
 
